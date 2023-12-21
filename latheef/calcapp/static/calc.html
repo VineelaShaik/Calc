@@ -59,12 +59,13 @@
                 <td><input type="button" value="/" onclick="result.value+='/'"/></td>
                 <td><input type="button" value="0" onclick="result.value+='0'"/></td>
                 <td><input type="button" value="." onclick="result.value+='.'"/></td>
-                <td><input type="button" value="=" onclick="result.value=eval(result.value)"/></td>
+                <td><input type="button" value="%" onclick="result.value+='%'"/></td>
             </tr>
             <tr>
-                <td colspan="4">
+                <td colspan="3">
                     <input type="button" value="Clearall" id="clear" onclick="result.value=''">
                 </td>
+                <td><input type="button" value="=" onclick="result.value=eval(result.value)"/></td>
             </tr>
         </table>
         </form>

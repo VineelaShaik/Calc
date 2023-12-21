@@ -87,12 +87,13 @@ Publish the website in the given URL.
                 <td><input type="button" value="/" onclick="result.value+='/'"/></td>
                 <td><input type="button" value="0" onclick="result.value+='0'"/></td>
                 <td><input type="button" value="." onclick="result.value+='.'"/></td>
-                <td><input type="button" value="=" onclick="result.value=eval(result.value)"/></td>
+                <td><input type="button" value="%" onclick="result.value+='%'"/></td>
             </tr>
             <tr>
-                <td colspan="4">
+                <td colspan="3">
                     <input type="button" value="Clearall" id="clear" onclick="result.value=''">
                 </td>
+                <td><input type="button" value="=" onclick="result.value=eval(result.value)"/></td>
             </tr>
         </table>
         </form>
@@ -101,8 +102,8 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
-![Alt text](<Screenshot 2023-12-20 144216.png>)
-![Alt text](<Screenshot 2023-12-20 144230.png>)
+![Alt text](<Screenshot 2023-12-21 095106.png>)
+![Alt text](<Screenshot 2023-12-21 095118.png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.

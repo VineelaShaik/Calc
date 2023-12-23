@@ -1,5 +1,5 @@
 # Ex.08 Design of a Standard Calculator
-## Date:20-12-2023
+## Date:22-12-2023
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
@@ -79,7 +79,7 @@ home.html
     </body>
 </html>
 
-styel.css
+style.css
 table{
     border: 5px solid black;
     margin-left:auto;
